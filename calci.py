@@ -89,16 +89,16 @@ while True:
     except:
         print("Enter a valid number")
     if choice == 1:
-        n1 = int(input('enter the first number to add : '))
-        n2 = int(input('enter the second number to add : '))
+        n1 = float(input('enter the first number to add : '))
+        n2 = float(input('enter the second number to add : '))
         calc.add(n1,n2)
     elif choice == 2:
-        n1 = int(input('enter the first number to subtract : '))
-        n2 = int(input('enter the second number to subtract : '))
+        n1 = float(input('enter the first number to subtract : '))
+        n2 = float(input('enter the second number to subtract : '))
         calc.sub(n1,n2)
     elif choice == 3:
-        n1 = int(input('enter the first number to multiply : '))
-        n2 = int(input('enter the second number to multiply : '))
+        n1 = float(input('enter the first number to multiply : '))
+        n2 = float(input('enter the second number to multiply : '))
         calc.mul(n1,n2)
     elif choice == 4:
         n1 = float(input('enter the first number to divide : '))
